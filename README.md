@@ -43,14 +43,14 @@ WordPress comments. The script is triggered when the comment is viewed.
 See folders in repository: 0, 1, 2 with 0.txt, 1.txt and 2.txt
 
 0.
-<img src="/0-insecure-config.mgmt.gif" width="800">
+<img src="https://github.com/acary/sigintz/0/0-insecure-config.mgmt.gif" width="800">
 
 1.
-<img src="/1-user-enumeration.gif" width="800">
+<img src="https://github.com/acary/sigintz/1/1-user-enumeration.gif" width="800">
 
 2.
-<img src="/2-xss.gif" width="800">
-<img src="/2-xss.gif-1" width="800">
+<img src="https://github.com/acary/sigintz/2/2-xss.gif" width="800">
+<img src="https://github.com/acary/sigintz/2/2-xss.gif-1" width="800">
 
 
 ## Resources
