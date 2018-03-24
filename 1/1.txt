@@ -2,7 +2,10 @@
 
 User enumeration
 
-/* Enumerate users:
+/* Enumerate users */
 
-wpscan --url http://192.168.33.10 -e u */
---
+wpscan --url http://192.168.33.10 -e u
+
+Users can be enumerated, revealing possible targets.
+When id=# exists in the url, an attacker can increment to find more about system users.
+This enumeration can also be done for plugins, themes, etc.

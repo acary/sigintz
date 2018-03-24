@@ -2,36 +2,36 @@
 
 # Project 7 - WordPress Pentesting
 
-Time spent: **5** hours spent in total
+Time spent: **8** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-0. (Required) WordPress page shows version
+0. (Required) -- WordPress page shows version
   - [x] Summary: Page exists which reveals WordPress version is installed.
     - Vulnerability types: A10 Insecure Configuration Management
     - Tested in version: 4.2
-    - Fixed in version: Custom
+    - Fixed in version: Website owner responsibility
   - [x] GIF Walkthrough: /0-insecure-config-mgmt.gif
   - [x] Steps to recreate: add /readme.html to WP domain URL in browser
   - [x] Affected source code: /public/readme.html
     - [Link 0](http://wpdistillery.vm/readme.html)
-1. (Required) User enumeration
+1. (Required) -- User enumeration
   - [x] Summary: Enumerating users by id may reveal information about users in the system.
     - Vulnerability types: OWASP-AT-002 Testing user enumeration
     - Tested in version: 4.2
-    - Fixed in version:
+    - Fixed in version: 4.3.1
   - [x] GIF Walkthrough: /1-user-enumeration.gif
   - [x] Steps to recreate: Modify URL where id=# to increment and probe record numbers
   - [x] Affected source code:
     - [Link 1](http://wpdistillery.vm/wp-admin.php)
-2. (Required) Persistent Cross-Site Scripting
+2. (Required) -- Persistent Cross-Site Scripting
   - [x] Summary: An unauthenticated attacker can inject JavaScript in
 WordPress comments. The script is triggered when the comment is viewed.
-    - Vulnerability types:
+    - Vulnerability types: A7-Cross-Site Scripting (XSS)
     - Tested in version: 4.2
-    - Fixed in version: 4.3
+    - Fixed in version: 4.2.2
   - [x] GIF Walkthrough: /2-xss.gif
   - [x] Steps to recreate: See file 2/2.txt
   - [x] Affected source code: public/wp-comments-post.php

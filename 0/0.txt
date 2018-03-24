@@ -5,11 +5,8 @@ Insecure Configuration Management
 - the readme.html file from the installation exists on the site
 - a malicious attacker could find the version installed (i.e. 4.2) then find vulnerabilities to exploit
 
+Action:
+Delete the /<WordPress_root>/readme.html /<WordPress_root>/license.txt and /<WordPress_root>/wp-admin/install.php files
 
-/*
-- XSS
-- SQLI
-- CSRF
-- User Enumeration
-- Privilege Escalation
-*/
+Reference:
+https://www.owasp.org/index.php/OWASP_Wordpress_Security_Implementation_Guideline#Delete_readme.html_and_install.php

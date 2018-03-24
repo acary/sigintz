@@ -11,3 +11,6 @@ Enter as a comment text:
 
 A malicious attacker can insert a XSS attack within a title tag on a comment.
 This can surreptitiously load external JS into the website and gain access to the backend.
+
+Fixed in 4.2.2:
+https://wordpress.org/news/2015/05/wordpress-4-2-2/
