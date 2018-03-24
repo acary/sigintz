@@ -2,61 +2,43 @@
 
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
+0. (Required) WordPress page shows version
+  - [ ] Summary: Page exists which reveals WordPress version
+    - Vulnerability types: A10 Insecure Configuration Management
+    - Tested in version: 4.2
+    - Fixed in version: Custom
+  - [ ] GIF Walkthrough: /0-insecure-config-mgmt.gif
+  - [ ] Steps to recreate: add /readme.html to WP domain
+  - [ ] Affected source code:
+    - [Link 1](http://wpdistillery.vm/readme.html)
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+  - [ ] Summary:
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Fixed in version:
+  - [ ] GIF Walkthrough:
+  - [ ] Steps to recreate:
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+2. (Required) Vulnerability Name or ID
+  - [ ] Summary:
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Fixed in version:
+  - [ ] GIF Walkthrough:
+  - [ ] Steps to recreate:
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
-List any additional assets, such as scripts or files
+// List any additional assets, such as scripts or files
 
 ## Resources
 
@@ -67,11 +49,14 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+// Describe any challenges encountered while doing the work
+
+- Many plugins with documented vulnerabilities were paid or difficult to access
+- Setup of testing and documenting environment was difficult to synchronize
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] SIGINT Z
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

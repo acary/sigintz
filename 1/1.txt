@@ -1,1 +1,14 @@
 # 3/23
+
+Nmap scanner:
+
+nmap -sS 192.168.33.10
+nmap -sS 192.168.33.10 -A // More detailed
+
+--
+PORTS - OPEN
+
+22/tcp open ssh
+80/tcp open http
+1025/tcp open NFS-or-IIS
+--
